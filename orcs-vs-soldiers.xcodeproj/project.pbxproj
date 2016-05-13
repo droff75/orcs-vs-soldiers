@@ -12,6 +12,11 @@
 		5ADDA9FB1CE3A32000148512 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ADDA9F91CE3A32000148512 /* Main.storyboard */; };
 		5ADDA9FD1CE3A32000148512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ADDA9FC1CE3A32000148512 /* Assets.xcassets */; };
 		5ADDAA001CE3A32000148512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ADDA9FE1CE3A32000148512 /* LaunchScreen.storyboard */; };
+		5ADDAA081CE3A88300148512 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5ADDAA071CE3A88300148512 /* Minecraft.ttf */; };
+		5ADDAA0A1CE3B1EA00148512 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADDAA091CE3B1EA00148512 /* Character.swift */; };
+		5ADDAA0C1CE3B31400148512 /* Players.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADDAA0B1CE3B31400148512 /* Players.swift */; };
+		5ADDAA0E1CE3B3B600148512 /* Orc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADDAA0D1CE3B3B600148512 /* Orc.swift */; };
+		5ADDAA101CE3B4FB00148512 /* Soldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADDAA0F1CE3B4FB00148512 /* Soldier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		5ADDA9FC1CE3A32000148512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5ADDA9FF1CE3A32000148512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5ADDAA011CE3A32000148512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ADDAA071CE3A88300148512 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		5ADDAA091CE3B1EA00148512 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		5ADDAA0B1CE3B31400148512 /* Players.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Players.swift; sourceTree = "<group>"; };
+		5ADDAA0D1CE3B3B600148512 /* Orc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orc.swift; sourceTree = "<group>"; };
+		5ADDAA0F1CE3B4FB00148512 /* Soldier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Soldier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +64,17 @@
 		5ADDA9F41CE3A32000148512 /* orcs-vs-soldiers */ = {
 			isa = PBXGroup;
 			children = (
+				5ADDAA071CE3A88300148512 /* Minecraft.ttf */,
 				5ADDA9F51CE3A32000148512 /* AppDelegate.swift */,
 				5ADDA9F71CE3A32000148512 /* ViewController.swift */,
 				5ADDA9F91CE3A32000148512 /* Main.storyboard */,
 				5ADDA9FC1CE3A32000148512 /* Assets.xcassets */,
 				5ADDA9FE1CE3A32000148512 /* LaunchScreen.storyboard */,
 				5ADDAA011CE3A32000148512 /* Info.plist */,
+				5ADDAA091CE3B1EA00148512 /* Character.swift */,
+				5ADDAA0B1CE3B31400148512 /* Players.swift */,
+				5ADDAA0D1CE3B3B600148512 /* Orc.swift */,
+				5ADDAA0F1CE3B4FB00148512 /* Soldier.swift */,
 			);
 			path = "orcs-vs-soldiers";
 			sourceTree = "<group>";
@@ -124,6 +139,7 @@
 			files = (
 				5ADDAA001CE3A32000148512 /* LaunchScreen.storyboard in Resources */,
 				5ADDA9FD1CE3A32000148512 /* Assets.xcassets in Resources */,
+				5ADDAA081CE3A88300148512 /* Minecraft.ttf in Resources */,
 				5ADDA9FB1CE3A32000148512 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ADDAA0C1CE3B31400148512 /* Players.swift in Sources */,
+				5ADDAA0A1CE3B1EA00148512 /* Character.swift in Sources */,
 				5ADDA9F81CE3A32000148512 /* ViewController.swift in Sources */,
+				5ADDAA0E1CE3B3B600148512 /* Orc.swift in Sources */,
+				5ADDAA101CE3B4FB00148512 /* Soldier.swift in Sources */,
 				5ADDA9F61CE3A32000148512 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
